@@ -53,15 +53,13 @@ scan.close();
 //int lengthOfNewDay = day.substring(3).toUpperCase().length();
 //System.out.println(lengthOfNewDay);// as long as there is a string-->string-->string-->int
 System.out.println("-------------------");
-
+// created a String for sunday to go backwords
 String day = "Sunday";
 String newString="";
 for(int i = day.length()-1; i>=0;i--) {
 	newString+=day.charAt(i);
 }
 System.out.println(newString);
-
-
 
 
 }
