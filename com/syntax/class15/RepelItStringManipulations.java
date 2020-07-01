@@ -1,10 +1,9 @@
 package com.syntax.class15;
 
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class RepelItStringManipulations {
-private static Object array;
+
 
 public static void main(String[] args) {
 	
@@ -195,48 +194,162 @@ public static void main(String[] args) {
 //System.out.println(given);
 //	
 //	System.out.println("--------------");
+//
+//	 Scanner inp = new Scanner(System.in);
+//	    System.out.print("In:");
+//	    String givenString = inp.nextLine();
+//	   	//write your code below
+//	   	String givenString1;
+//	   
+//	      givenString = givenString.replace(" ","");
+//	    String newString = "";
+//	    for(int i = givenString.length()-1; i>=0;i--) {
+//	    	newString += givenString.charAt(i);
+//	    }
+//	    
+//	    if(newString.equalsIgnoreCase(givenString)){
+//	    	
+//	    	System.out.println("true"); 
+//	    }else{
+//	    System.out.println("false");
+//	    }
+//	    
+//    System.out.println("-------------------");
+//    
+//	Scanner inp = new Scanner(System.in);
+//    System.out.print("In:");
+//    String word = inp.nextLine();
+//    //write your code below
+//	  
+//    //some what how to skipp every other letter
+//	for(int w = 0; w < word.length() ; w+= 2){
+//		   System.out.print(word.charAt(w));
+//	}
+//	
+//	 //the right way to skip every other letter
+//	for(int i=0;i<=word.length()-1;i+=2){
+//	      System.out.print(word.charAt(i));
+//	    }
+//	
+//	System.out.println("--------------"); 
+//	
+//	Scanner inp = new Scanner(System.in);
+//    System.out.print("In:");
+//    String word = inp.nextLine();
+//    //write your code below
+//    
+//    String newWord = "";
+//    for(int i = 0 ; i <= word.length() - 1; i+=1) {
+//	 newWord += word.charAt(i);
+//	
+//    System.out.println(word.charAt(i));
+//
+//	} 
+//	
+//	System.out.println("-------------");
+//	
+//	Scanner inp = new Scanner(System.in);
+//    System.out.print("In:");
+//    String s = inp.nextLine();
+//    //write your code below
+//    
+//	String news = "";
+//    for(int i = 0; i <= s.length() - 1; i++) {
+//    	news += s.charAt(i);
+//    	System.out.print(s.charAt(i) + " ");
+//}	
+//	
+//    //this is the right way to do it
+//    Scanner inp = new Scanner(System.in);
+//	System.out.print("In:");
+//	String s = inp.nextLine();
+//	// write your code below
+//
+//	String newString = "";
+//	for (int i = 0; i <= s.length() - 1; i++) {
+//		
+//		if(i!=s.length()-1) {
+//			newString = newString + s.charAt(i) + " ";
+//		}else {
+//			newString = newString + s.charAt(i);
+//		}
+//}
+//		System.out.println(newString);
+//	
+//System.out.println("--------------------");
+//
+	Scanner input = new Scanner(System.in);
+	String[] arr = new String[5];
+	//leave above alone!  write your code below
 	
-	Scanner inp = new Scanner(System.in);
-    System.out.print("In:");
-    String givenString = inp.nextLine();
-   	//write your code below
-   	
-   
-    
-    boolean palindrome = true;
+	for (int i=0;i<arr.length;i++) {
+		arr[i] = input.nextLine();
+	}
 	
-    String given = "" ;
-    String newString = "";
-    
-    for(int i = given.length()-1; i>=0;i--) {
-    	newString+=given.charAt(i);
-    System.out.println(palindrome);
-    if (given == givenString){
-	  System.out.println("false");
-	  }else {
-	System.out.println("true");
-   
-    
-    }
-    
+	for(String a: arr){
+    System.out.println(a.substring(0,3));
+  }
+//
+//System.out.println("----------------");
+//
+//	Scanner inp = new Scanner(System.in);
+//    System.out.print("In:");
+//    String word = inp.nextLine();
+//    //write your code below
+//
+//    for(int s = 0; s < word.length(); s++){
+//        char c = Character.toLowerCase(word.charAt(s));
+//        if (c == 'a' || c == 'e'|| c == 'i' || c == 'o' || c == 'u'){
+//          System.out.print(word.charAt(s));
+//        }
+//       
+//        Scanner inp = new Scanner(System.in);
+//        System.out.print("In:");
+//        String word = inp.nextLine();
+//        //write your code below
+//        //this is how i print vowels only
+//        String replace=word.replaceAll("[^aAeEiIoOuU]", "");
+//        System.out.println(replace);
+//}
+//System.out.println("---------------------");
+//            
+//	StringBuffer str = new StringBuffer("Hello");
+//	  str.append(" ");
+//	  str.append(" World");
+//	  String str1 = str.toString().toUpperCase();
+//	  System.out.println(str1);
+//	
+//	//this is the right way to make stringbuffer to uppercase
+//	  StringBuffer str = new StringBuffer(); 
+//				
+//	str.append("Hello");
+//	str.append(" ");
+//	str.append("World");
+//				
+//	String upper = str.toString().toUpperCase();
+//				
+//	System.out.println(upper);
+//
+//		System.out.println("---------------");		
+//
+//	StringBuffer str = new StringBuffer("Hello friends");
+//System.out.println(str);
+//str.reverse();
+//System.out.println(str);
+//
+// //this the right way to do it
+//	
+//	String givenString = "Hello Friends";
+//
+//	StringBuffer sb = new StringBuffer(givenString);
+//	sb.reverse();
+//
+//	String reversedString=sb.toString();
+//	
+//	System.out.println(reversedString);
+//	
+//System.out.println("-------------");
 
-    
-    
-    
-	  }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 
 
@@ -245,11 +358,5 @@ public static void main(String[] args) {
 
 
 
-
-
-
-
-
-   }
 }
-
+}

@@ -3,7 +3,7 @@ package com.syntax.class16;
 public class Calculator {
 
 	//add, sub, div, multi
-	
+	//Method with parameters
 	void add(int a, int b) {
 		//int a = 100;
 		//int b = 200;

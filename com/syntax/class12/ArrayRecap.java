@@ -16,7 +16,7 @@ public static void main(String[] args) {
 		color = colors[b];
 	}
 	System.out.print(color);
-	
+	System.out.println();
 System.out.println("------------------");	
 	
 

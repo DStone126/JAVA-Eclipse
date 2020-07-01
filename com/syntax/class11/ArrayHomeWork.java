@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	String[] cars = {"american", "german", "korean", "italian"};
 	
 	for(int c = 0; c < cars.length; c++) {
-	System.out.println(cars[c]);
+	System.out.println(cars[c].replaceAll("[^A-Za-z0-9]", ""));
 }
 	System.out.println("---------------------");
 
