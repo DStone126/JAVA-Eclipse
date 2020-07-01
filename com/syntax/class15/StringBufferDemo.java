@@ -9,6 +9,7 @@ public static void main(String [] args) {
 	
 String str2 = "Hello";//String is immutable object = not complete
 str2.concat(" friends ");//new object gets created that will have value "hello friends"--->no one takes it
+
 System.out.println(str2);//hello
 
 
