@@ -278,17 +278,17 @@ public static void main(String[] args) {
 //	
 //System.out.println("--------------------");
 //
-	Scanner input = new Scanner(System.in);
-	String[] arr = new String[5];
-	//leave above alone!  write your code below
-	
-	for (int i=0;i<arr.length;i++) {
-		arr[i] = input.nextLine();
-	}
-	
-	for(String a: arr){
-    System.out.println(a.substring(0,3));
-  }
+//	Scanner input = new Scanner(System.in);
+//	String[] arr = new String[5];
+//	//leave above alone!  write your code below
+//	
+//	for (int i=0;i<arr.length;i++) {
+//		arr[i] = input.nextLine();
+//	}
+//	
+//	for(String a: arr){
+//    System.out.println(a.substring(0,3));
+//  }
 //
 //System.out.println("----------------");
 //
