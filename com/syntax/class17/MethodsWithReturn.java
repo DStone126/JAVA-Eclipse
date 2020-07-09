@@ -8,8 +8,8 @@ public class MethodsWithReturn {
 		System.out.println(isItEven);
 		System.out.println(obj.isEven(11));
 		
-		String upperValue=obj.convertToUpperCase("Thao");
-		System.out.println(upperValue);
+//		String upperValue=obj.convertToUpperCase("Thao");
+//		System.out.println(upperValue);
 	}
 	//create a method that will accept an int value and return whether number is even
 	boolean isEven(int a) {
@@ -35,7 +35,6 @@ public class MethodsWithReturn {
 	}
 	
 	//create a method that will accept String value and returns that value all in uppercase
-	String convertToUpperCase(String value) {
-		return value.toUpperCase();
+//	String convertToUpperCase(String value) {
+//		return value.toUpperCase();
 	}
-}
