@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	phone1.displayDetails();
 	// phone1.displayInfo();-->possible but not 
 	
-	IPhone.displayInfo();
+	//IPhone.displayInfo();
 	
 	IPhone.touchScreen = false;
 	
