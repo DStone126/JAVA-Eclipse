@@ -77,13 +77,13 @@ public class Task {
 	boolean prime=t.isPrime(2);
 	System.out.println(prime);
 
-	Student student=new Student();
-
-	char grade=student.getGrade(75);
-	char grade1=student.grade(75);
-
-	System.out.println("Value of grade="+grade);
-	System.out.println("Value of grade1="+grade1);
+	//Student student=new Student();
+//
+//	char grade=student.getGrade(75);
+//	char grade1=student.grade(75);
+//
+//	System.out.println("Value of grade="+grade);
+//	System.out.println("Value of grade1="+grade1);
 }
 }
 
