@@ -103,24 +103,58 @@ public class RepelItVariablesInJava {
 //	  }
 //
 //	  System.out.println("---------------");
-
-	int va;
-	  String val;
-	  double valu;
-	  boolean value;
-	  float values;
-	  
-	  public static void main(String [] args){
-	    RepelItVariablesInJava mm = new RepelItVariablesInJava();
-		  
-		 
-	  }
-
-
-
-
-
-
+//
+//	int iValue;
+//	  String sValue;
+//	  double dValue;
+//	  boolean bValue;
+//	  float fValue;
+//	  
+//	  public static void main(String[] args) {
+//	    
+//		  RepelItVariablesInJava vv= new RepelItVariablesInJava();
+//	    System.out.println(vv.iValue);
+//	    System.out.println(vv.sValue);
+//	    System.out.println(vv.dValue);
+//	    System.out.println(vv.bValue);
+//	    System.out.println(vv.fValue);
+//	 }
+//	  
+//		 System.out.println("---------------");
+//		 
+//	 String ss = "Welcome To Syntax Technologies";
+//
+//	   RepelItVariablesInJava(String ss) {
+//		
+//		this.ss = ss;
+//	}
+//	void display(){
+//	    System.out.println("Welcome To Syntax Technologies");
+//	  System.out.println(ss);
+//	    
+//	  }
+//	  public static void main(String [] args){
+//	  
+//		  RepelItVariablesInJava mm = new RepelItVariablesInJava("Welcome To Syntax Technologies");
+//	  mm.ss = "Welcome To Syntax Technologies";
+//	  mm.display();
+//System.out.println(mm.ss);
+//	  }
+//
+////this is the right way to do it
+//	  static String ss="Welcome To Syntax Technologies";
+//	  
+//	  public static void main(String[] args) {
+//	  
+//	    System.out.println(ss);
+//	    System.out.println(Main.ss);
+//	    
+//	    Main mm= new Main();
+//	    System.out.println(mm.ss);
+//	  
+//	  }
+//
+//	  System.out.println("-----------------");
 
 
 
