@@ -271,48 +271,6 @@ public class RepelItJavaMethods {
 //				return newString;
 //			}
 				
-
-
-
-
-
-
-
-
-
-	//System.out.println("------------------");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//System.out.println("------------------");
 
 }
