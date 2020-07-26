@@ -1,6 +1,6 @@
 package com.syntax.class20;
 
-public class Car {
+public class RepelItConstructors2Test {
 
 	public static String make;
 protected String model,color;
@@ -11,14 +11,14 @@ public void displayInfo() {
 	System.out.println("We build " + year + " " + make + " " + model + " for price = $" + price);
 }
 
-Car(){
+RepelItConstructors2Test(){
 	System.out.println("I am a consturctor");
 }
 
 public static void main(String[] args) {
 	
 	
-	Car car = new Car();
+	RepelItConstructors2Test car = new RepelItConstructors2Test();
 	/*
 	 Car-->class name
 	 car-->reference variable
@@ -38,7 +38,7 @@ public static void main(String[] args) {
 	//static String driver; local variables cannot be Static
 	//System.out.println(driver);
 
-	Car car1 = new Car();
+	RepelItConstructors2Test car1 = new RepelItConstructors2Test();
 	
 	car1.model = "iS";
 	car1.year = 2020;
