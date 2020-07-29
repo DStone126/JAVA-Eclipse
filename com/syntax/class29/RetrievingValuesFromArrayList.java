@@ -16,17 +16,24 @@ public static void main(String[] args) {
 	//how to retrieve a value
 	
 	String str = a.get(1);
+	
 	System.out.println(str);
 	System.out.println();
+	
 	//how to retrieve values one by one
 	
 	for(String as:a) {
+		
 		System.out.println(as);
+		
 		if(as.equals("Damien")) {
+			
 			System.out.println("Damien your the Best");
 		}
 	}
-System.out.println();
+
+	System.out.println();
+
 for(int i = 0; i < a.size(); i++) {
 	String s = a.get(i);
 	System.out.println(s);
