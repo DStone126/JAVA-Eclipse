@@ -36,6 +36,7 @@ class BOA extends Bank{
 
 	public BOA(double money) {
 		super(money);
+	
 	}
 }
 
