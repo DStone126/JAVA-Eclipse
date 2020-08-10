@@ -172,10 +172,78 @@ public class RepelItFinalKeyWord {
 //	
 //	}
 //System.out.println("------------");
+//	
+//	class Parent{
+//	 
+//	void method(){
+//		    System.out.println("Parent method");
+//		  }
+//}
+//	 class Child extends Parent{
+//		  void method(){
+//		    System.out.println("Child method");
+//		  }
+//		}
+//
+//	 public static void main(String[] args) {
+//		    Parent parent= new Parent();
+//		    parent.method();
+//		   
+//		   Child child= new Child();
+//		   child.method();
+//		}
+//	 
+// System.out.println("----------");
+//
+//	class Parent {
+//		public void method1() {
+//			System.out.println("I am a parent public method");
+//		}
+//
+//		protected void method2() {
+//			System.out.println("I am a parent protected method");
+//		}
+//
+//		void method3() {
+//			System.out.println("I am a parent default method");
+//
+//		}
+//
+//		private void method4() {
+//			System.out.println("I am a parent private method");
+//
+//		}
+//	}
+//
+//	class Child extends Parent {
+//		public void method1() {
+//			System.out.println("I am a child public method");
+//		}
+//
+//		protected void method2() {
+//			System.out.println("I am a child protected method");
+//		}
+//
+//		void method3() {
+//			System.out.println("I am a child default method");
+//
+//		}
+//	}
+//
+//	 public static void main(String[] args) {
+//		    Child child=new Child();
+//				child.method1();
+//				child.method2();
+//				child.method3();
+//		 } 
+//	
+//	 System.out.println("---------");
 
-
-
-
+	public static final String APPLICATION_URL="https://syntaxtechs.com";
+    
+	  public static void main(String[] args) {
+	    System.out.println(APPLICATION_URL);
+	  }
 
 
 

@@ -267,26 +267,90 @@ public class RepelItConstructors2Test {
 //		  }  
 //		  
 //System.out.println("------");
+//
+//	 static void method(){
+//		    System.out.println("static method without parameter");
+//		  }
+//		  static void method(int a){
+//		     System.out.println("static method with int parameter");
+//		  }
+//		  public static void main(String[] args) {
+//		   
+//		   method();
+//		   method(10);
+//		  }
 
-	 static void method(){
-		    System.out.println("static method without parameter");
-		  }
-		  static void method(int a){
-		     System.out.println("static method with int parameter");
-		  }
-		  public static void main(String[] args) {
+	public static class Person{
+		  
+		  String name, lastName;
+		   int age;
+		  
+		  public Person(String name, String lastName, int age){
+		    
+		    this.name = name;
+		    this.lastName = lastName;
+		    this.age = age;
+		    }
+		}
+
+	public static class Employee extends Person{
+		  
+		  int salary;
+		  
+		  public Employee(String name, String lastName, int age, int salary){
 		   
-		   method();
-		   method(10);
+		   super(name,lastName,age);
+		    this.salary = salary;
 		  }
 
+		  public void info(){
+		    System.out.println(name +" "+ lastName +" "+ age +" "+ salary);
+		  }
+		}
 
+	public static class Student extends Employee{
+		  
+		 int grade;
+		  
+		  public Student(String name, String lastName, int age, int grade){
+		    
+		    super(name,lastName,age,grade);
+		    this.grade = grade;
+		  }
 
+		  public void infoo(){
+		    System.out.println(name +" "+ lastName +" "+ age +" "+ grade);
+		}
+		}
 
+	public static class Retiree extends Student{
+		  
+		  String seniorActivity;
+		  
+		  public Retiree(String name, String lastName, int age, String seniorActivity){
+		    
+		    super(name,lastName, age, age);
+		    this.seniorActivity = seniorActivity;
+		  }
 
+		  public void infooo(){
+		    System.out.println(name +" "+ lastName +" "+ age +" "+ seniorActivity);
+		}
+		}
 
-
+	public static void main(String [] args){
+		  
+		Employee e = new Employee("Joe", "Smith",35,35000);
+	  e.info();
+	  
+	Student s = new Student("Adam", "Smith", 15, 10);
+	  s.infoo();
+	  
+	 Retiree r = new Retiree("Frank", "Smith", 15, "tour");
+	  r.infooo();
+	}
 }
+
 
 
 
