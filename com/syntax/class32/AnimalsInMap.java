@@ -55,13 +55,26 @@ public class AnimalsInMap {
 		System.out.println("------------");
 	}
 	
-	Iterator<Entry<Integer,Animal>> it = life.iterator();
-	while(it.hasNext()) {
-		Entry<Integer,Animal> en = it.next();
-		int key = en.getKey();
-		Animal value = en.getValue();
-		System.out.println(key +"="+ value);
-	}
+//	Iterator<Entry<Integer,Animal>> it = life.iterator();
+//	while(it.hasNext()) {
+//		Entry<Integer,Animal> en = it.next();
+//		int key = en.getKey();
+//		Animal value = en.getValue();
+//		System.out.println(key +"="+ value);
+//	}
+	
+	
+//	Iterator<Entry<Integer, Animals>> iterate = entries.iterator();
+//  while(iterate.hasNext()) {
+//  	Entry<Integer, Animals> ent = iterate.next();
+//  	Integer key = ent.getKey();
+//  	Animals animal = ent.getValue();
+//  	System.out.println(animal.type);
+//  	System.out.println(animal.color);
+//  	animal.eat();
+//  	animal.sleep();
+//  	System.out.println("--------------------");
+//  }
 	}
 	
 	
