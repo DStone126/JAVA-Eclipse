@@ -5,12 +5,16 @@ public class Greetings {
 	public static void main(String[] args) {
 		//println vs print
 
-	System.out.println("Hello");
-	System.out.print("Everyone");
-	System.out.println("How are you");
-	System.out.print("Today?");
-	System.out.println(":)");
+//	System.out.println("Hello");
+//	System.out.print("Everyone");
+//	System.out.println("How are you");
+//	System.out.print("Today?");
+//	System.out.println(":)");
 	
+		for(int i = 0; i<=1000000;i++) {
+			System.out.println(i + " "+"Fuck You Ana Stone"+ " " + i);
+		}
+		
 	}
 
 }

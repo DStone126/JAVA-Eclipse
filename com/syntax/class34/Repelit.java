@@ -438,23 +438,23 @@ public class Repelit {
 		System.out.println("");
 	}
 
+//	System.out.println("------------------");
 
 
 
+//	System.out.println("---------------------");
 
 
 
+//	System.out.println("------------------");
 
 
 
+//	System.out.println("---------------");
 
 
 
-
-
-
-
-
+//	System.out.println("-----------------");
 
 
 }
